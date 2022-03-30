@@ -1,0 +1,561 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 16186 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Pranav/Documents/Luna_park/Luna Park/Luna Park
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58012
+Successfully changed project path to: C:/Users/Pranav/Documents/Luna_park/Luna Park/Luna Park
+C:/Users/Pranav/Documents/Luna_park/Luna Park/Luna Park
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pranav/Documents/Luna_park/Luna Park/Luna Park/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro M2200 (ID=0x1436)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   30.0.14.7291
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004032 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (775ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1915ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1531ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.3 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3256.
+Total: 4.264200 ms (FindLiveObjects: 0.657000 ms CreateObjectMapping: 0.255600 ms MarkObjects: 3.184200 ms  DeleteObjects: 0.162700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656accacfcccd2676d4467045950fbb8') in 0.083947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.187128 seconds.
+  path: Assets/PranavAssets/ferris_car.obj
+  artifactKey: Guid(323a611ea6dda174e80c396479d70844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/ferris_car.obj using Guid(323a611ea6dda174e80c396479d70844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a188f1889aeb39ccf6a40906c57a7ac') in 0.535156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.653795 seconds.
+  path: Assets/PranavAssets/ferris_car_seats.obj
+  artifactKey: Guid(f8d479beefec72e43863a80af154c0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/ferris_car_seats.obj using Guid(f8d479beefec72e43863a80af154c0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdae9e33341e9fd0345c80961292488') in 0.063438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/PranavAssets/ferris_car_support.obj
+  artifactKey: Guid(e7c460ee54e738b4295de1664f206c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/ferris_car_support.obj using Guid(e7c460ee54e738b4295de1664f206c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d949902e518289c25f77945751284c6') in 0.065563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.185661 seconds.
+  path: Assets/PranavAssets/Prefabs
+  artifactKey: Guid(4c9eb74350d984740985fa4cf5f09807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs using Guid(4c9eb74350d984740985fa4cf5f09807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabbccb9694a3f1ec55266ccc04cf1c2') in 0.012834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043640 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd171e851454d86957527d3f471fe3be8') in 0.033726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.692690 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512d72a6720a239feaec08eb2e4288a4') in 0.016676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.715801 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd83b5e72e22b1252d2e3d4762d6c1c') in 0.026815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.162756 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bef45193d2184bdd639b3a1f6ac4c1d') in 0.030621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.920086 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_carriage.prefab
+  artifactKey: Guid(cc1b5986bef1a5e4eb1152791394a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_carriage.prefab using Guid(cc1b5986bef1a5e4eb1152791394a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c9e09b4f07bb7891cb1dd5002b1f77') in 0.018544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.053350 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_carriage.prefab
+  artifactKey: Guid(cc1b5986bef1a5e4eb1152791394a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_carriage.prefab using Guid(cc1b5986bef1a5e4eb1152791394a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36478e7ba7839ea02b53de0f5ab9fd94') in 0.022612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.335851 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf343597bc04c7a655b98aa6fc5d5fa0') in 0.044732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.060112 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f029585133a504dc636faba691c5f1a') in 0.045142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.417717 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467d0ae77f0639fc3ddc1f0954e6383c') in 0.043564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.599981 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239976235ffa765d0b0311bbf8463302') in 0.052179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.951625 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a814317d241ef49c2186ce0950af0e96') in 0.049342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.640228 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f4b9e77890c1910bf6ea56c24ea2a6') in 0.033829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.104500 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e7714521d14972f358dccbb86ac9a2') in 0.041416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.013632 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75650d83314dbd601b219a41768b02e3') in 0.035701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.793075 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35ea3e440c65fadbca9d0a8d92810a1') in 0.048133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.399084 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c97f64ec876db509676044b3b54f45a') in 0.032455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.660899 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab
+  artifactKey: Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel_wheel.prefab using Guid(5927928be48004949b866e832c6dcd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10313bdf5b5760365b59f9fe886ec084') in 0.048948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.219735 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eed9439207c77be90408774f492e5bb') in 0.045104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.766357 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215dd67f1ffeae08f11f530c48b79193') in 0.037798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.191081 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0c91e74e8649612a81b19d8d74f974') in 0.043363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.048578 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969d32c22bed41f473916992e41aa9e1') in 0.047970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.795706 seconds.
+  path: Assets/PranavAssets/Prefabs/Ferris Wheel.prefab
+  artifactKey: Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Ferris Wheel.prefab using Guid(97d3cab6f34c28c48bd7cfe49a7fa35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b1d4637e8edbf7aca0d8e32716da8e') in 0.044320 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1812ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1429ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3340.
+Total: 4.235800 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.296500 ms MarkObjects: 3.556500 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.163178 seconds.
+  path: Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab
+  artifactKey: Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab using Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ea2265735285b5d7a77d5df7ae4ef2') in 0.070710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.399081 seconds.
+  path: Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab
+  artifactKey: Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab using Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7727b602b2641007a7c4a81b85ac554') in 0.247121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.408577 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed9e64f0d16e62cbd185bf095894f5b') in 1.020375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a46e45ab72210011683b98bb693f19') in 0.032705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9985e948210718225141c8418d287') in 0.444574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.221164 seconds.
+  path: Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab
+  artifactKey: Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab using Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cd79c21ed3aae45e887d93bd531a3c') in 0.023099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.029826 seconds.
+  path: Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab
+  artifactKey: Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab using Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90735b9dcfd93a37b57e42aab1c685b9') in 0.021051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.624194 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.016003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.883207 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bf0ce48973afbe7fe123759c5ce376') in 0.028239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 328.934916 seconds.
+  path: Assets/PranavAssets/tikitwirl_seats.obj
+  artifactKey: Guid(143939a8337111c468b5ab9c682e0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/tikitwirl_seats.obj using Guid(143939a8337111c468b5ab9c682e0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1557be1c3efbe5baefbff2b993bbfa') in 0.073077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.042978 seconds.
+  path: Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab
+  artifactKey: Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/FirstPersonFlyer.prefab using Guid(05a7fb18b1d49fd4d83bcae4655704d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5286b602cfbd780e92ff1d11c11e82') in 0.017955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.984316 seconds.
+  path: Assets/PranavAssets/Prefabs/Tiki Twirl.prefab
+  artifactKey: Guid(857b902f17d5cb242bba362f13d2cf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Tiki Twirl.prefab using Guid(857b902f17d5cb242bba362f13d2cf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb4f2975d0ac4f40b773533d1d2b9d9') in 0.018460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.639669 seconds.
+  path: Assets/PranavAssets/tikitwirl_seats.obj
+  artifactKey: Guid(143939a8337111c468b5ab9c682e0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/tikitwirl_seats.obj using Guid(143939a8337111c468b5ab9c682e0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab70f72b9b8ac402b2f9f132a0568f2') in 0.082948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.118861 seconds.
+  path: Assets/PranavAssets/Prefabs/Tiki Twirl.prefab
+  artifactKey: Guid(857b902f17d5cb242bba362f13d2cf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/Prefabs/Tiki Twirl.prefab using Guid(857b902f17d5cb242bba362f13d2cf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64fb78dc8450367cf5a894610f83334') in 0.034487 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1819ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1479ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3380.
+Total: 4.405700 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.267000 ms MarkObjects: 3.759200 ms  DeleteObjects: 0.033600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 867.251063 seconds.
+  path: Assets/PranavAssets/tikitwirl_CX.obj
+  artifactKey: Guid(7213b386526e83a46a2f8aae41f51732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/tikitwirl_CX.obj using Guid(7213b386526e83a46a2f8aae41f51732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6119823087d9baca6bc6a659ce79f3') in 0.399296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/PranavAssets/tikitwirl_CX.obj
+  artifactKey: Guid(7213b386526e83a46a2f8aae41f51732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PranavAssets/tikitwirl_CX.obj using Guid(7213b386526e83a46a2f8aae41f51732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6119823087d9baca6bc6a659ce79f3') in 0.050198 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1888ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1537ms)
+			LoadAssemblies (287ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.1 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 4.348100 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.164800 ms MarkObjects: 3.739500 ms  DeleteObjects: 0.051900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
